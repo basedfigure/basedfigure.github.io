@@ -5,14 +5,14 @@
 <h1></h1>
 <h1>EmulaTotM</h1>
 <h2>1.0 - Introduction:</h2>
-<p>- EmulaTotM (etotm) is a gamemaster (GM) emulator for designing and playing tabletop roleplaying games, both solo and multiplayer. It supports custom modules and is designed with <a href="https://basedfigure.github.io/BioGriever/1.Intro.html" style="color:#c90000; font-size:24px; font-style:normal;">BioGriever: A Dark Future</a> in mind.</p>
+<p>- EmulaTotM (etotm) is a gamemaster (GM) emulator for designing and playing tabletop roleplaying games, both solo and multiplayer. It supports custom modules and is designed with <a href="https://basedfigure.github.io/BioGriever/1.Intro.html" style="color:#900000; font-size:24px; font-style:normal;">BioGriever: A Dark Future</a> in mind.</p>
 <p>The game got inspired by the following game formats and genres, in order of historical appearance with their wikipedia pages:</p>
 <ul>
-<li style="list-style-type: circle;"><a href="https://en.wikipedia.org/wiki/Miniature_wargaming" style="color:#c90000; font-size:24px; font-style:normal;">Miniature wargames</a> (TMGs)</li>
-<li style="list-style-type: circle;"><a href="https://en.wikipedia.org/wiki/Tabletop_role-playing_game" style="color:#c90000; font-size:24px; font-style:normal;">Tabletop roleplaying games</a> (TTRPGs)</li>
-<li style="list-style-type: circle;"><a href="https://en.wikipedia.org/wiki/MUD1" style="color:#c90000; font-size:24px; font-style:normal;">Multi-user dungeons</a> (MUDs)</li>
-<li style="list-style-type: circle;"><a href="https://en.wikipedia.org/wiki/Roguelike" style="color:#c90000; font-size:24px; font-style:normal;">Roguelikes</a> (RLs)</li>
-<li style="list-style-type: circle;"><a href="https://en.wikipedia.org/wiki/Role-playing_video_game" style="color:#c90000; font-size:24px; font-style:normal;">Computer/Western roleplaying games</a> (CRPGs/WRPGs, used interchangeably)</li>
+<li style="list-style-type: circle;"><a href="https://en.wikipedia.org/wiki/Miniature_wargaming" style="color:#900000; font-size:24px; font-style:normal;">Miniature wargames</a> (TMGs)</li>
+<li style="list-style-type: circle;"><a href="https://en.wikipedia.org/wiki/Tabletop_role-playing_game" style="color:#900000; font-size:24px; font-style:normal;">Tabletop roleplaying games</a> (TTRPGs)</li>
+<li style="list-style-type: circle;"><a href="https://en.wikipedia.org/wiki/MUD1" style="color:#900000; font-size:24px; font-style:normal;">Multi-user dungeons</a> (MUDs)</li>
+<li style="list-style-type: circle;"><a href="https://en.wikipedia.org/wiki/Roguelike" style="color:#900000; font-size:24px; font-style:normal;">Roguelikes</a> (RLs)</li>
+<li style="list-style-type: circle;"><a href="https://en.wikipedia.org/wiki/Role-playing_video_game" style="color:#900000; font-size:24px; font-style:normal;">Computer/Western roleplaying games</a> (CRPGs/WRPGs, used interchangeably)</li>
 </ul>
 <h2>1.1 - Applications:</h2>
 <p>- etotm is cross-platform application for GNU Linux, Android, Windows and macOS -- with Linux first, as it is open source, well supported, free, easy to use, and painless to install on both old and modern computer hardware, with plenty of tutorials available so you can set it up at home. Linux originates from Finland, as an independent project, but has since been adopted for various use cases worldwide.</p>
@@ -20,52 +20,11 @@
 <h2>2.0 - Tools & dependencies:</h2>
 <p>- Relies <b>only</b> on natively supplied <b>lazarus packages</b>, my <i>own</i> code and badsector's JTF model format. Mine loosely follows some 'not invented here' philosophies</p>
 <ul>
-<li style="list-style-type: circle;">Free Pascal (FPC) at <a href="https://www.freepascal.org/" style="color:#c90000; font-size:24px; font-style:normal;">home page</a></li>
-<li style="list-style-type: circle;">Lazarus-IDE at <a href="https://www.lazarus-ide.org/" style="color:#c90000; font-size:24px; font-style:normal;">home page</a></li>
-<li style="list-style-type: circle;">BioGriever mechanics at <a href="https://codeberg.org/basedfigure/BioGriever.git" style="color:#c90000; font-size:24px; font-style:normal;">codeberg</a></li>
-<li style="list-style-type: circle;">Waistworks 3d units at <a href="https://codeberg.org/basedfigure/waistworks.git" style="color:#c90000; font-size:24px; font-style:normal;">codeberg</a></li>
-<li style="list-style-type: circle;">WebWizEd html units at <a href="https://codeberg.org/basedfigure/WebWizEd.git" style="color:#c90000; font-size:24px; font-style:normal;">codeberg</a></li>
-</ul>
-<h2>2.1 - Fedora Linux packages:</h2>
-<p></p>
-<ul>
-<li style="list-style-type: circle;"><span style="color:#FFFFFF; font-size:24; font-style:;">- Lazarus-IDE can be downloaded and installed through the Software Center, or through a console with:</span></li>
-<li style="list-style-type: circle;"><span style="color:#FFFFFF; font-size:24; font-style:;">- sudo dnf install lazarus-ide</span></li>
-<li style="list-style-type: circle;"><span style="color:#FFFFFF; font-size:24; font-style:;">- LazOpenGLContext installation requires mesa-libGL-devel to be present, which can be installed with:</span></li>
-<li style="list-style-type: circle;"><span style="color:#FFFFFF; font-size:24; font-style:;">- sudo dnf install mesa-libGL-devel</span></li>
-</ul>
-<p>2.2 - Lazarus packages:</p>
-<ul>
-<li style="list-style-type: circle;"><span style="color:#FFFFFF; font-size:24; font-style:;">- Installed through Lazarus, from Package->Install/Uninstall Packages ...</span></li>
-</ul>
-<p>2.3 - Ptyxis console on Lazarus:</p>
-<ul>
-<li style="list-style-type: circle;"><span style="color:#FFFFFF; font-size:24; font-style:;">- To use the Fedora's default console Ptyxis on Lazarus, you need to set the following parameters in Run/Run Parameters:</span></li>
-<li style="list-style-type: circle;"><span style="color:#FFFFFF; font-size:24; font-style:;"> - [x] Use launching application</span></li>
-<li style="list-style-type: circle;"><span style="color:#FFFFFF; font-size:24; font-style:;"> - ptyxis -e bash -c "$(TargetCmdLine); echo; echo Press enter to exit; read"</span></li>
-</ul>
-<h1>EmulaTotM</h1>
-<h2>1.0 - Introduction:</h2>
-<p>- EmulaTotM (etotm) is a gamemaster (GM) emulator for designing and playing tabletop roleplaying games, both solo and multiplayer. It supports custom modules and is designed with <a href="https://basedfigure.github.io/BioGriever/1.Intro.html" style="color:#c90000; font-size:24px; font-style:normal;">BioGriever: A Dark Future</a> in mind.</p>
-<p>The game got inspired by the following game formats and genres, in order of historical appearance with their wikipedia pages:</p>
-<ul>
-<li style="list-style-type: circle;"><a href="https://en.wikipedia.org/wiki/Miniature_wargaming" style="color:#c90000; font-size:24px; font-style:normal;">Miniature wargames</a> (TMGs)</li>
-<li style="list-style-type: circle;"><a href="https://en.wikipedia.org/wiki/Tabletop_role-playing_game" style="color:#c90000; font-size:24px; font-style:normal;">Tabletop roleplaying games</a> (TTRPGs)</li>
-<li style="list-style-type: circle;"><a href="https://en.wikipedia.org/wiki/MUD1" style="color:#c90000; font-size:24px; font-style:normal;">Multi-user dungeons</a> (MUDs)</li>
-<li style="list-style-type: circle;"><a href="https://en.wikipedia.org/wiki/Roguelike" style="color:#c90000; font-size:24px; font-style:normal;">Roguelikes</a> (RLs)</li>
-<li style="list-style-type: circle;"><a href="https://en.wikipedia.org/wiki/Role-playing_video_game" style="color:#c90000; font-size:24px; font-style:normal;">Computer/Western roleplaying games</a> (CRPGs/WRPGs, used interchangeably)</li>
-</ul>
-<h2>1.1 - Applications:</h2>
-<p>- etotm is cross-platform application for GNU Linux, Android, Windows and macOS -- with Linux first, as it is open source, well supported, free, easy to use, and painless to install on both old and modern computer hardware, with plenty of tutorials available so you can set it up at home. Linux originates from Finland, as an independent project, but has since been adopted for various use cases worldwide.</p>
-<p>- The development environment is a Fedora Linux 42 Workstation - as the OS, that comes with the GNOME desktop environment. The Lazarus-IDE can be installed through the Software Center or the console (with more on each below).</p>
-<h2>2.0 - Tools & dependencies:</h2>
-<p>- Relies <b>only</b> on natively supplied <b>lazarus packages</b>, my <i>own</i> code and badsector's JTF model format. Mine loosely follows some 'not invented here' philosophies</p>
-<ul>
-<li style="list-style-type: circle;">Free Pascal (FPC) at <a href="https://www.freepascal.org/" style="color:#c90000; font-size:24px; font-style:normal;">home page</a></li>
-<li style="list-style-type: circle;">Lazarus-IDE at <a href="https://www.lazarus-ide.org/" style="color:#c90000; font-size:24px; font-style:normal;">home page</a></li>
-<li style="list-style-type: circle;">BioGriever mechanics at <a href="https://codeberg.org/basedfigure/BioGriever.git" style="color:#c90000; font-size:24px; font-style:normal;">codeberg</a></li>
-<li style="list-style-type: circle;">Waistworks 3d units at <a href="https://codeberg.org/basedfigure/waistworks.git" style="color:#c90000; font-size:24px; font-style:normal;">codeberg</a></li>
-<li style="list-style-type: circle;">WebWizEd html units at <a href="https://codeberg.org/basedfigure/WebWizEd.git" style="color:#c90000; font-size:24px; font-style:normal;">codeberg</a></li>
+<li style="list-style-type: circle;">Free Pascal (FPC) at <a href="https://www.freepascal.org/" style="color:#900000; font-size:24px; font-style:normal;">home page</a></li>
+<li style="list-style-type: circle;">Lazarus-IDE at <a href="https://www.lazarus-ide.org/" style="color:#900000; font-size:24px; font-style:normal;">home page</a></li>
+<li style="list-style-type: circle;">BioGriever mechanics at <a href="https://codeberg.org/basedfigure/BioGriever.git" style="color:#900000; font-size:24px; font-style:normal;">codeberg</a></li>
+<li style="list-style-type: circle;">Waistworks 3d units at <a href="https://codeberg.org/basedfigure/waistworks.git" style="color:#900000; font-size:24px; font-style:normal;">codeberg</a></li>
+<li style="list-style-type: circle;">WebWizEd html units at <a href="https://codeberg.org/basedfigure/WebWizEd.git" style="color:#900000; font-size:24px; font-style:normal;">codeberg</a></li>
 </ul>
 <h2>2.1 - Fedora Linux packages:</h2>
 <p></p>
