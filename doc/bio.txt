@@ -1,1 +1,2 @@
-Static html documents across all my works.
+ Static html documents across all my works. Apparently commits on GH pages don't 
+count as contributions, but whatever.
