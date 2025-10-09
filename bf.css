@@ -30,6 +30,41 @@ a:visited { color: #DDDDDD; }
   z-index: -1;
 }
 
+.dos-title {
+  background: black;
+  color: #FFA500;
+  font-weight: bold;
+  width: calc(100% + 3rem);
+  margin-left: -1.5rem;
+  margin-top: -1rem;
+  padding: 0.4rem 0.3rem;
+  border-bottom: 1px solid black;
+  text-shadow: 2px 2px 0 #000000;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.dos-content {
+  padding-top: 0.5rem;
+}
+
+.dos-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.links-panel {
+  flex: 0 0 200px;
+}
+
+.right-panels {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 1;
+}
+
 h1 {
   color: #A0B080;
   margin-bottom: 2rem;
