@@ -1,3 +1,7 @@
+/* -------------------
+   base
+------------------- */
+
 body {
   background-color: #443112;
   color: #FFFFFF;
@@ -6,8 +10,19 @@ body {
   padding: 2rem;
 }
 
+h1 {
+  color: #A0B080;
+  margin-bottom: 2rem;
+  text-shadow: 3px 3px 0 #000000;
+}
+
 a { color: #FFFFFF; }
 a:visited { color: #DDDDDD; }
+
+
+/* -------------------
+   dos
+------------------- */
 
 .dos-panel {
   position: relative;
@@ -54,19 +69,52 @@ a:visited { color: #DDDDDD; }
   gap: 2rem;
 }
 
+
+/* -------------------
+   side l
+------------------- */
+
 .links-panel {
   flex: 0 0 200px;
+  padding: 0;
 }
+
+.links-panel .dos-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+}
+
+.links-panel .dos-title {
+  width: 100%;
+  margin-left: 0;
+  margin-top: 0;
+  border-bottom: 1px solid black;
+}
+
+.links-panel a {
+  display: block;
+  width: 100%;
+  padding: 0.4rem 0.4rem; /* Looks good with or without */
+  color: #FFFFFF;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #2f3f00;
+}
+
+.links-panel a:hover {
+  background: #809060;
+}
+
+
+/* -------------------
+   side r
+------------------- */
 
 .right-panels {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   flex: 1;
-}
-
-h1 {
-  color: #A0B080;
-  margin-bottom: 2rem;
-  text-shadow: 3px 3px 0 #000000;
 }
