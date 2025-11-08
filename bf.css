@@ -61,6 +61,7 @@ a:visited { color: #DDDDDD; }
 
 .dos-content {
   padding-top: 0.5rem;
+  display: block;
 }
 
 .dos-row {
@@ -118,3 +119,38 @@ a:visited { color: #DDDDDD; }
   gap: 2rem;
   flex: 1;
 }
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.image-row img {
+  max-width: 300px;
+  display: block;
+  margin-bottom: 6px;
+  border: 1px solid black;
+}
+
+.image-row a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.image-link {
+  display: inline-block;
+  background: linear-gradient(90deg, #FFA500, #FF00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-decoration: underline;
+}
+
+.image-link:hover {
+  filter: brightness(1.5);
+}
+
+
+
