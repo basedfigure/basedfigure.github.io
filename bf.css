@@ -5,7 +5,7 @@
 body {
   background-color: #443112;
   color: #FFFFFF;
-  font-family: "Courier New", monospace;
+  font-family: 'Less Perfect DOS VGA', monospace;
   margin: 0;
   padding: 2rem;
 }
@@ -13,12 +13,12 @@ body {
 h1 {
   color: #A0B080;
   margin-bottom: 2rem;
+  font-family: "Courier New", monospace;
   text-shadow: 3px 3px 0 #000000;
 }
 
 a { color: #FFFFFF; }
 a:visited { color: #DDDDDD; }
-
 
 /* -------------------
    dos
