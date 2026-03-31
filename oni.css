@@ -1,9 +1,11 @@
 body {
     margin: 0;
-    font-family: Tahoma;
+    font-family:  Tahoma;
+    font-family:  Less Perfect DOS VGA; monospace;
+    font-size:  13px;
     background: #302d20;
 /*  background: #242118;*/ 
-    color: #9b9069;
+    color: #bcb2a6;
     text-shadow: 1px 1px 0 #000000;
 }
 
